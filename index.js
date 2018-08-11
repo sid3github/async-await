@@ -58,6 +58,35 @@
 // count();
 
 
+//<function callback>
+function myName(data){
+    return new Promise(function(resolve,reject){
+        resolve(console.log('hello ' + data));
+}, 7000);
+};
+
+async function ref(){
+    let x = await myName('Siddharth');
+    console.log(x);
+};
+ref();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
