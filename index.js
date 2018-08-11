@@ -58,18 +58,48 @@
 // count();
 
 
-//<function callback>
-function myName(data){
-    return new Promise(function(resolve,reject){
-        resolve(console.log('hello ' + data));
-}, 7000);
-};
+// <function callback>
+// function myName(data){
+//     return new Promise(function(resolve,reject){
+//         resolve(console.log('hello ' + data));
+// }, 8000);
+// };
 
-async function ref(){
-    let x = await myName('Siddharth');
-    console.log(x);
-};
-ref();
+// async function ref(){
+//     let x = await myName('Siddharth');
+//     console.log(x);
+// };
+// ref();
+
+
+//<error handling try/>catch>
+// try {
+//     setTimeout(() => {
+//         throw new Error("Uh oh!");
+//     }, 8000);
+// } catch (e) {
+//     console.log("I caught the error: " + e.message);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
